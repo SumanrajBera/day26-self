@@ -13,19 +13,22 @@ body {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: black;
 }
 
 nav,
-section {
+section,
+footer {
   max-width: 1600px;
 }
 
 main {
   width: 100%;
-  background-color: black;
   color: white;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 0;
   align-items: center;
 }
 main nav {
@@ -94,6 +97,212 @@ main #hero .text .btn-grp button {
 main #hero .text .btn-grp p {
   font-size: 0.8rem;
 }
+main #weekly {
+  width: 100%;
+  padding: 4rem 1rem;
+}
+main #weekly .heading {
+  margin-bottom: 1rem;
+}
+main #weekly .heading p {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+main #weekly .line {
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(90deg, #FC3224 40%, transparent);
+  margin-bottom: 1rem;
+}
+main #weekly .filters {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+main #weekly .filters .filter {
+  width: 100px;
+  padding: 0.5rem;
+  font-weight: 600;
+  background-color: #1e1e1e;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0.2rem;
+}
+main #weekly .filters .filter:nth-child(1) {
+  background-color: #FC3224;
+}
+main #weekly .movies {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+main #weekly .movies .movie {
+  width: 100%;
+  aspect-ratio: 1/1.5;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  border-radius: 0.2rem;
+}
+main #weekly .movies .movie p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+main #weekly .movies .movie p span {
+  font-weight: 400;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+main #weekly .movies .movie:nth-child(1) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/1200x/ae/0c/65/ae0c6506aa74d3940a025715d9a8ee8b.jpg);
+}
+main #weekly .movies .movie:nth-child(2) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/1200x/4b/1c/ab/4b1cab19aed05183b61c11e399b53833.jpg);
+}
+main #weekly .movies .movie:nth-child(3) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/1200x/51/3b/e4/513be4225f05ac71031514abd9b16a53.jpg);
+}
+main #weekly .movies .movie:nth-child(4) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/736x/cf/c1/09/cfc109de26321ca02ca4e5316b83c4f3.jpg);
+}
+main #weekly .movies .movie:nth-child(5) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/736x/d3/9d/d2/d39dd2670b04b1ca4bbf7fc6b2fa1b9d.jpg);
+}
+main #weekly .movies .movie:nth-child(6) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/736x/3b/4d/f9/3b4df920ea93d75afa74dbdd2eff5aea.jpg);
+}
+main #weekly .movies .movie:nth-child(7) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/1200x/19/d0/e2/19d0e25fd0395c22164824da0bd3ff33.jpg);
+}
+main #weekly .movies .movie:nth-child(8) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/1200x/f3/ad/24/f3ad247098e88f1e378aa9ff9537e691.jpg);
+}
+main #weekly .movies .movie:nth-child(9) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/736x/66/ff/c7/66ffc719bd539be2ec95d0e769cbca9d.jpg);
+}
+main #weekly .movies .movie:nth-child(10) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/736x/df/bb/bc/dfbbbc22c9b093aea4f9c6deb2179a5b.jpg);
+}
+main #upcoming {
+  width: 100%;
+  padding: 4rem 1rem;
+}
+main #upcoming .heading {
+  margin-bottom: 1rem;
+}
+main #upcoming .heading p {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+main #upcoming .line {
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(90deg, #FC3224 40%, transparent);
+  margin-bottom: 1rem;
+}
+main #upcoming .movies {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+main #upcoming .movies .movie {
+  width: 100%;
+  aspect-ratio: 1/1.5;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  border-radius: 0.2rem;
+}
+main #upcoming .movies .movie p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+main #upcoming .movies .movie p span {
+  font-weight: 400;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+main #upcoming .movies .movie:nth-child(1) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/1200x/2a/c0/d9/2ac0d9e5a4f894a4ed23748778a20225.jpg);
+}
+main #upcoming .movies .movie:nth-child(2) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/736x/02/12/b4/0212b4a89dc44f6cf134af4a4d13f156.jpg);
+}
+main #upcoming .movies .movie:nth-child(3) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/736x/14/a4/b8/14a4b8e913aa116061e2624600c3a1be.jpg);
+}
+main #upcoming .movies .movie:nth-child(4) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/1200x/71/0a/09/710a09b239c7e98981cdaacdda6418d7.jpg);
+}
+main #upcoming .movies .movie:nth-child(5) {
+  background-image: linear-gradient(transparent, black), url(https://i.pinimg.com/1200x/f9/84/9d/f9849df85a00d4f36fae642c199996ab.jpg);
+}
+main footer {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #1e1e1e;
+}
+main footer .company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+main footer .company .logo {
+  width: 15ch;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 1.2rem;
+}
+main footer .company .logo span {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 2rem;
+  font-family: "BBH Sans Hegarty", sans-serif;
+  letter-spacing: 0.2rem;
+}
+main footer .company .social-links {
+  text-align: center;
+}
+main footer .company .social-links a {
+  text-decoration: none;
+  cursor: pointer;
+}
+main footer .company .social-links a i {
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+}
+main footer .company .social-links a + a {
+  margin-left: 0.5rem;
+}
+main footer .copyright {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
 
 @media (min-width: 700px) {
   main nav {
@@ -105,10 +314,49 @@ main #hero .text .btn-grp p {
   main #hero .text h1 {
     font-size: 6rem;
   }
+  main #weekly .movies,
+  main #upcoming .movies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main #weekly .movies .movie,
+  main #upcoming .movies .movie {
+    width: 100%;
+  }
+  main footer {
+    padding-inline: 2rem;
+    align-items: last baseline;
+    flex-direction: row;
+  }
+  main footer .company {
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  main footer .copyright {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  main footer .copyright p {
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
+@media (min-width: 1020px) {
+  main #weekly .filters,
+  main #upcoming .filters {
+    justify-content: flex-end;
+  }
+  main #weekly .movies,
+  main #upcoming .movies {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 @media (min-width: 1440px) {
   main #hero {
-    background-image: linear-gradient(90deg, black 10%, transparent), linear-gradient(90deg, transparent 90%, black), linear-gradient(transparent 70%, black), url(./assets/mov-banner.jpg);
+    background-image: linear-gradient(90deg, black 1%, transparent 100%), linear-gradient(90deg, transparent 90%, black), linear-gradient(transparent 70%, black), url(./assets/mov-banner.jpg);
+    background-position: top;
     height: 75vh;
   }
 }/*# sourceMappingURL=style.css.map */
